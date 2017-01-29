@@ -1,0 +1,15 @@
+To create a project
+
+1. install node.js in system  URL - https://nodejs.org/en/download/
+2. npm install yo  (Yeoman is a tool for creating project structure by specifying project technologies  like angular, bootstrap , css etc..to be used) npm install -g yo
+3.  Create a directory for your new project and then cd into the directory and then 
+    yo (in cmd to generate all options by yo, choose required project settings)
+4. npm install gulp -g  (if gulp is not installed in the system)
+5. npm install  ( This installs all the depedencies specified in the package.json file)
+6. gulp serve to run your project on localhost server
+7. gulp build to build your project that creates dist file which is ready to be deployed on the servers like surge etc.
+8.  To install surge ....   npm install --global surge
+# In your project directory, just run…
+$ surge
+9. Provide dist path for the surge command ...and choose your domain name
+10. Done!!!!!!!!!!!!
